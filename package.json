@@ -2,7 +2,8 @@
   "scripts": {
     "dev": "vitepress dev docs --host=127.0.0.1 --port=5173",
     "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "serve": "vitepress serve docs",
+    "deploy": "vitepress build docs && npx surge docs/.vitepress/dist"
   },
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.13",

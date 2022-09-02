@@ -2,11 +2,11 @@
 layout: home
 
 title: Redius
-titleTemplate: Vite & Vue Powered Admin framework
+titleTemplate: Vite & Vue Powered Admin Framework
 
 hero:
   name: Redius
-  text: Vite & Vue Powered Admin framework
+  text: Vite & Vue Powered Admin Framework
   tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
   actions:
     - theme: brand
