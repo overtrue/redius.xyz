@@ -3,7 +3,7 @@
     "dev": "vitepress dev docs --host=127.0.0.1 --port=5173",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs",
-    "deploy": "vitepress build docs && npx surge docs/.vitepress/dist"
+    "push": "git push -u origin && git push -u overtrue"
   },
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.13",
